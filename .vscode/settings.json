@@ -1,0 +1,13 @@
+{
+    // 开启保存时自动格式化
+    "editor.formatOnSave": true,
+    // 默认格式化程序设置为 Prettier (需确保已安装 Prettier 扩展)
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 针对特定文件类型的优化
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.renderWhitespace": "all",
+        // 强制 Markdown 也使用 Prettier 格式化
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

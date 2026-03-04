@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"vite": "^7.3.1",
+		"vue": "^3.5.29",
+		"element-plus": "^2.13.3",
+		"echarts": "^6.0.0"
+	}
+}
